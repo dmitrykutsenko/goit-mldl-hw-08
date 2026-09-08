@@ -1,0 +1,18 @@
+path: c:\Goit\goit-mldl-hw-08\data\indoor\
+
+train: train/images
+val: valid/images
+test: test/images
+nc: 10
+
+names: 
+- door
+- cabinetDoor
+- refrigeratorDoor
+- window
+- chair
+- table
+- cabinet
+- couch
+- openedDoor
+- pole
