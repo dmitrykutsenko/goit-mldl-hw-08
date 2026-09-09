@@ -1,15 +1,42 @@
-train: /content/data/train/images
-val: /content/data/valid/images
-test: /content/data/test/images
+# train: /content/data/train/images
+# val: /content/data/valid/images
+# test: /content/data/test/images
+# nc: 10
+# names: 
+#- door
+#- cabinetDoor
+#- refrigeratorDoor
+#- window
+#- chair
+#- table
+#- cabinet
+#- couch
+#- openedDoor
+#- pole
+
+path: data/indoor  # коренева папка датасету
+train: data/indoor/train/images
+val: data/indoor/val/images
+test: data/indoor/test/images
 nc: 10
-names: 
-- door
-- cabinetDoor
-- refrigeratorDoor
-- window
-- chair
-- table
-- cabinet
-- couch
-- openedDoor
-- pole
+names:
+#  0: door
+#  1: open_door
+#  2: cabinet_door
+#  3: fridge_door
+#  4: window
+#  5: chair
+#  6: table
+#  7: cabinet
+#  8: sofa
+#  9: pillar
+0: door
+1: cabinetDoor
+2: refrigeratorDoor
+3: window
+4: chair
+5: table
+6: cabinet
+7: couch
+8: openedDoor
+9: pole
